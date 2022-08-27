@@ -1,0 +1,52 @@
+
+.App{
+ text-align: center;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: fit-content;
+  max-width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px black;
+  background-color: #fff;
+ }
+
+ p i{
+  font-size: 3rem;
+  padding-right: 1rem;
+ }
+
+ span{
+  display: inline-block;
+  width: 85%;
+ }
+ 
+ p ~ p{
+   width: 100%;
+   text-align: end;
+   font-style: italic;
+ }
+ 
+ p ~ div{
+  width: 100%;
+  text-align: end;
+}
+
+ .card button{
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  box-shadow: 2px 3px 7px gray;
+  cursor: pointer;
+}
+
+.card button i{
+  color: #fff;
+  font-size: 1.5rem;
+}
